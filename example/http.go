@@ -1,16 +1,16 @@
 package main
 
 import (
-	"flag"
-	"github.com/libp2p/go-libp2p"
-	"fmt"
 	"context"
+	"errors"
+	"flag"
+	"log"
+	"fmt"
+	"strings"
 
+	"github.com/libp2p/go-libp2p"
 	"github.com/upperwal/go-libp2p-protocol"
 	"github.com/libp2p/go-libp2p-net"
-	"strings"
-	"errors"
-	"log"
 )
 
 /*

@@ -1,12 +1,13 @@
 package main
 
 import(
-	"github.com/upperwal/go-libp2p-protocol"
-	"github.com/libp2p/go-libp2p"
 	"context"
-	"github.com/libp2p/go-libp2p-net"
 	"fmt"
 	"flag"
+
+	"github.com/libp2p/go-libp2p"
+	"github.com/libp2p/go-libp2p-net"
+	"github.com/upperwal/go-libp2p-protocol"
 )
 
 const(

@@ -1,14 +1,15 @@
 package protocol
 
 import (
+	"context"
+	"fmt"
+
 	"github.com/libp2p/go-libp2p-net"
 	"github.com/libp2p/go-libp2p-host"
 	"github.com/libp2p/go-libp2p-protocol"
 	"github.com/libp2p/go-libp2p-peerstore"
-	"context"
 	"github.com/multiformats/go-multiaddr"
 	"github.com/libp2p/go-libp2p-peer"
-	"fmt"
 	logging "github.com/ipfs/go-log"
 )
 
