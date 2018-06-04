@@ -14,8 +14,7 @@ proto := protocol.Protocol {
   Name: "name_your_protocol",
   Version: 1,
   Run: func(stream net.Stream, init bool) {
- 
-  	// use init to differentiate between dialler and listener peer. 
+    // use init to differentiate between dialler and listener peer. 
     // init == true (peer who called AddPeer)
 
     fmt.Println("Stream opened to ", stream.Conn().RemotePeer())
